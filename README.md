@@ -15,6 +15,6 @@ If you add five times, it's 350, so the number of 100 changes,
 
 If you add it six times, it's 420, so the number of places in 100 will change.
 
-
+You can adjust the number to add by changing the value of 'increment'.
 I was wondering how the digits change with the numbers, and I generated the code through Copilot.
 (I wrote down my comment in Korean and English)
