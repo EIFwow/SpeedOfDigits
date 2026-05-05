@@ -17,3 +17,4 @@ If you add it six times, it's 420, so the number of places in 100 will change.
 
 
 I was wondering how the digits change with the numbers, and I generated the code through Copilot.
+(I wrote down my comment in Korean and English)
