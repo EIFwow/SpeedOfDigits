@@ -1,20 +1,22 @@
-(Because I'm Korean, the translation may be wrong.)
+Project: Digit Change Observer
+⚠️ Note: The current code is not working as intended. I am working on a fix!
 
-I wanted to know how the digits change when I keep adding the same number.
-For example, if you keep adding 70,
+Overview
+I wanted to visualize how specific digits (like the hundreds place) change when a constant value is repeatedly added.
 
-If you add one more, it's 70, so the number of 100 doesn't change,
+Example (Incrementing by 70):
 
-If you add two more times, it's 140, so the number of 100 changes,
++70 (Total: 70): The hundreds digit remains 0.
 
-If you add three times, it's 210, so the number of 100 changes,
++70 (Total: 140): The hundreds digit changes to 1.
 
-If you add four times, it's 280, so the number of 100 doesn't change,
++70 (Total: 210): The hundreds digit changes to 2.
 
-If you add five times, it's 350, so the number of 100 changes,
++70 (Total: 280): The hundreds digit remains 2.
 
-If you add it six times, it's 420, so the number of places in 100 will change.
++70 (Total: 350): The hundreds digit changes to 3.
 
-You can adjust the number to add by changing the value of 'increment'.
-I was wondering how the digits change with the numbers, and I generated the code through Copilot.
-(I wrote down my comment in Korean and English)
+How to use
+You can test different behaviors by adjusting the increment variable in the code.
+
+This project was developed with the help of GitHub Copilot. Comments are provided in both Korean and English.
